@@ -1,598 +1,325 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Resumex - Professional HTML CSS Resume Website Template</title>
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Nikhil Singh</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <!-- favicon -->
+    <link href="favicon.png" rel=icon>
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- web-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- font-awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+<!-- Page Preloader -->
+<div id="preloader">
+    <div id="status">
+        <div class="status-mes"></div>
+    </div>
+</div>
 
-<body>
+<div class="columns-block container">
+<div class="left-col-block blocks">
+    <header class="header theiaStickySidebar">
+        <div class="profile-img">
+            <img src="img/img-profile.jpg" class="img-responsive" alt=""/>
+        </div>
+        <div class="content">
+            <h1>Nikhil Singh</h1>
+            <span class="lead">DevOps Engineer</span>
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h3> <span>Welcome to my page </span> </h3>
-            <h3>Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            to know more <a class="smoothscroll" href="#about">about me.</a> </h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://github.com/nikkytub"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/nikhil-singh-809891bb"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            <ul class="social-icon">
+                <li><a href="https://github.com/nikkytub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/nikhil-singh-809891bb/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
             </ul>
-         </div>
-      </div>
+        </div>
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
+    </header>
+    <!-- .header-->
+</div>
+<!-- .left-col-block -->
 
 
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
+<div class="right-col-block blocks">
+<div class="theiaStickySidebar">
+<section class="expertise-wrapper section-wrapper gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Expertise</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
 
-      <div class="row">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Cloud computing</h3>
 
-         <div class="three columns">
+                    <p>
+                        AWS, GCP, Openstack, Azure, Docker, Kubernetes, Helm, Prometheus, Grafana, ELK, 
+                        Jenkins, Concourse, Ansible, Terraform
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Networking </h3>
 
-            <img class="profile-pic"  src="images/nikky.jpg" alt="" />
+                    <p>
+                        SDN, Openflow, P4
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Languages</h3>
 
-         </div>
+                    <p>
+                        Python, Go, P4
+                    </p>
+                </div>
+            </div>
 
-         <div class="nine columns main-col">
+            <div class="col-md-6">
+                <div class="expertise-item">
+                    <h3>Agile</h3>
 
-            <h2>About Me</h2>
+                    <p>
+                        Jira </p>
+                </div>
+            </div>
 
-            <p>Tech lover, Space explorer, Fitness enthusiast
-            </p>
+        </div>
 
+
+    </div>
+</section>
+<!-- .expertise-wrapper -->
+
+
+
+<section class="section-wrapper section-experience gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Work Experience</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>2017 - Present</small>
+                    <h3>Working Student (DevOps)</h3>
+                    <h4>SAP SE</h4>
+
+                    <p>Berlin, Germany</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>2014 - 2015</small>
+                    <h3>Sr. Analyst</h3>
+                    <h4>American Express</h4>
+
+                    <p>Gurgaon, India</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>2012 - 2013</small>
+                    <h3>Process Associate/Developer</h3>
+                    <h4>Genpact</h4>
+
+                    <p>New Delhi, India</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>2010 - 2011</small>
+                    <h3>Engineer Trainee (Electrical)</h3>
+                    <h4>BCML Power</h4>
+
+                    <p>Balrampur, India</p>
+                </div>
+                <!-- .experience-item -->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
+
+</section>
+<!-- .section-experience -->
+
+<section class="section-wrapper section-education">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Education</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>2016 - 2020</small>
+                    <h3>Master in Computer Science</h3>
+                    <h4>Technical University Berlin</h4>
+
+                    <p>Berlin, Germany</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>2006 - 2010</small>
+                    <h3>BTech in Electrical and Electronics</h3>
+                    <h4>Uttar Pradesh Technical University</h4>
+
+                    <p>Lucknow, India</p>
+                </div>
+                <!-- .experience-item -->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
+
+</section>
+<!-- .section-education -->
+
+<section class="section-wrapper section-interest gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Interest</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <h3>Books</h3>
+
+                    <p>You can Win</p>
+                </div>
+                <div class="content-item">
+                    <h3>Sports</h3>
+
+                    <p>Basketball, Table Tennis, Badminton, Cricket</p>
+
+                </div>
+                <div class="content-item">
+                    <h3>Fun</h3>
+
+                    <p>Drinks with friends</p>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
+
+    </div>
+</section>
+<!-- .section-publications -->
+
+
+
+<section class="section-contact section-wrapper gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <address>
+                    <strong>Address</strong><br>
+                    Berlin, Germany
+
+                </address>
+                <address>
+                    <strong>Phone Number</strong><br>
+                    +4917634668504
+                </address>
+                <address>
+                    <strong>Email</strong><br>
+                    <a href="mailto:#">nikkytub@gmail.com</a>
+                </address>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                
+
+
+            </div>
+        </div>
+    </div>
+    <!--.container-fluid-->
+</section>
+<!--.section-contact-->
+
+<footer class="footer">
+    <div class="copyright-section">
+        <div class="container-fluid">
             <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						   <span>Nikhil Singh</span><br>
-						   <span>Berlin<br>
-						         Germany
-                     </span><br>
-						   <span>+4917634668504</span><br>
-                     <span>nikkytub@gmail.com</span>
-					   </p>
-
-               </div>
-
-               <div class="columns download">
-                  <p>
-                     <a href="images/Nikhil-CV.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
-      </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Technical University Berlin</h3>
-                  <p class="info">Master in Computer Science <span>&bull;</span> <em class="date">2020</em></p>
-
-                  <p>
-                  Distributed Systems, Software Engineering, Cloud Computing
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Uttar Pradesh Technical University</h3>
-                  <p class="info">B.Tech in Electrical and Electronics Engineering <span>&bull;</span> <em class="date">2010</em></p>
-
-                  <p>
-                  Everything related to hardware, chips, semiconductors, transistors etc.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>SAP SE</h3>
-                  <p class="info">Cloud Engineer <span>&bull;</span> <em class="date">August 2017 - Present</em></p>
-
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>ProfitBricks GMBH</h3>
-                  <p class="info">Working Student Python <span>&bull;</span> <em class="date">2017</em></p>
-
-
-               </div>
-
-            </div> <!-- item end -->
-
-              <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>American Express</h3>
-                  <p class="info">Sr. Analyst <span>&bull;</span> <em class="date">2014 - 2015</em></p>
-
-
-               </div>
-
-            </div> <!-- item end -->
-
-             <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Genpact</h3>
-                  <p class="info">Process Associate/Developer <span>&bull;</span> <em class="date">2012 - 2013</em></p>
-
-
-               </div>
-
-            </div> <!-- item end -->
-
-             <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>BCML Power</h3>
-                  <p class="info">Electrical Engineer <span>&bull;</span> <em class="date">2010 - 2011</em></p>
-
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <p>Cloud Computing, IaaS, PaaS, SaaS, Docker, Kubernetes, Helm, Prometheus, Openstack, GCP, AWS, Ansible,
-                Python, Django, SDN, P4 etc.
-            </p>
-
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+                <div class="col-md-12">
+                    <div class="copytext">&copy; Resumex. All rights reserved | Design By: <a
+                            href="https://themehippo.com">themehippo</a></div>
+                </div>
             </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="text-container">
-
-         <div class="row">
-
-            <div class="two columns header-col">
-
-               <h1><span>Client Testimonials</span></h1>
-
-            </div>
-
-            <div class="ten columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p> Try to work every waking hour.
-                           </p>
-                           <cite>Elon Musk</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>Listen to your intuitions. They never lie.
-                           </p>
-                           <cite>Steve Jobs</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
-
-
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">Get in touch
-                  </p>
-
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p class="address">
-						   Nikhil Singh<br>
-						   Berlin <br>
-						   Germany<br>
-						   <span>+4917634668504</span>
-					   </p>
-
-				   </div>
-
-            </aside>
-
-      </div>
-
-   </section> <!-- Contact Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://github.com/nikkytub"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/nikhil-singh-809891bb"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-
+            <!--.row-->
+        </div>
+        <!-- .container-fluid -->
+    </div>
+    <!-- .copyright-section -->
+</footer>
+<!-- .footer -->
+</div>
+<!-- Sticky -->
+</div>
+<!-- .right-col-block -->
+</div>
+<!-- .columns-block -->
+</div>
+<!-- #main-wrapper -->
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/theia-sticky-sidebar.js"></script>
+<script src="js/scripts.js"></script>
 </body>
-
 </html>
